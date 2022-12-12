@@ -110,7 +110,7 @@
 
 - BERT
   - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
-  - [中英翻译对照(todo)]()
+  - [中英翻译对照](nlp/bert.md)
 
 ## 无监督学习(Unsupervise Learning)
 ### 对比学习(Contrastive learning)
