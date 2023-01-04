@@ -112,6 +112,11 @@
   - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/abs/1810.04805)
   - [中英翻译对照](nlp/bert.md)
 
+
+- GPT2
+  - [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
+  - [中英翻译对照](nlp/gpt2.md)
+
 ## 无监督学习(Unsupervise Learning)
 ### 对比学习(Contrastive learning)
 
