@@ -135,7 +135,7 @@ SSD 方法基于一个前馈卷积网络，该网络产生一个固定大小的�
 为0.2，
 ![](http://latex.codecogs.com/svg.latex?\mathcal{S}_{\max%20})
 为0.9，意味着最低层的尺度为0.2，最高层的尺度为0.9，中间的所有层都是有规律的。我们为默认的框施加不同的长宽比，并将其表示为
-![](http://latex.codecogs.com/svg.latex?a_{r}%20\in%20\left\{1,2,3,%20\frac{1}{2},%20\frac{1}{3}\right\})
+![](http://latex.codecogs.com/svg.latex?a_{r}%20\in%20\\{1,2,3,%20\frac{1}{2},%20\frac{1}{3}\\})
 。我们可以计算出每个默认框的宽度
 ![](http://latex.codecogs.com/svg.latex?\left(w_{k}^{a}=s_{k}%20\sqrt{a_{r}}\right))
 和高度
@@ -147,7 +147,7 @@ SSD 方法基于一个前馈卷积网络，该网络产生一个固定大小的�
 ，其中
 ![](http://latex.codecogs.com/svg.latex?\left|f_{k}\right|)
 是第k个正方形特征图的大小，
-![](http://latex.codecogs.com/svg.latex?i,%20j%20\in\left[0,\left|f_{k}\right|\right).)
+![](http://latex.codecogs.com/svg.latex?i,%20j%20\in[0,\left|f_{k}\right|))
 。在实践中，人们也可以设计一个默认框的分布，以最适合特定的数据集。如何设计最佳的平铺方式也是一个开放的问题。
 
 > where smin is 0.2 and smax is 0.9, meaning the lowest layer has a scale of 0.2 and the highest layer has a scale of 0.9, and all layers in between are regularly spaced. We impose different aspect ratios for the default boxes, and denote them as a_{r} \in \left\{1,2,3, \frac{1}{2}, \frac{1}{3}\right\}. We can compute the width  \left(w_{k}^{a}=s_{k} \sqrt{a_{r}}\right) and height  \left(h_{k}^{a}=s_{k} / \sqrt{a_{r}}\right)  for each default box. For the aspect ratio of 1, we also add a default box whose scale is s_{k}^{\prime}=\sqrt{s_{k} s_{k+1}} resulting in 6 default boxes per feature map location. We set the center xxx of each default box to \left(\frac{i+0.5}{\left|f_{k}\right|}, \frac{j+0.5}{\left|f_{k}\right|}\right), where \left|f_{k}\right| is the size of the k-th square feature map, 
