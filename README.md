@@ -113,6 +113,11 @@
   - [中英翻译对照](nlp/bert.md)
 
 
+- GPT
+  - [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+  - [中英翻译对照](nlp/gpt.md)
+
+
 - GPT2
   - [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
   - [中英翻译对照](nlp/gpt2.md)
