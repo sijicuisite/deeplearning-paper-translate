@@ -67,7 +67,7 @@
 
 - DETR
   - [End-to-End Object Detection with Transformers](https://arxiv.org/abs/2005.12872)
-  - [中英翻译对照(todo)]()
+  - [中英翻译对照](cv/object_detection/detr.md)
 
 
 ### 语义分割(Semantic Segmentation)
