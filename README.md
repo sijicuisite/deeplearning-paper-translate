@@ -81,6 +81,14 @@
   - [中英翻译对照](cv/semantic_segmentation/u-net.md)
 
 
+### 图像生成(Image generation)
+#### 生成对抗网络(GAN)(todo...)
+#### 扩散模型(Diffusion model)
+- DDPM
+  - [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239)
+  - [中文版](cv/image_generation/diffusion_model/DDPM.pdf)
+
+
 ## 视频类(Video)
 ### 动作分类(Action Classification)
 - Two-Stream
