@@ -113,6 +113,11 @@
   - [中英翻译对照](nlp/bert.md)
 
 
+- T5
+  - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
+  - [中文版](nlp/T5.pdf)
+
+
 - GPT
   - [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
   - [中英翻译对照](nlp/gpt.md)
@@ -122,7 +127,7 @@
   - [Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
   - [中英翻译对照](nlp/gpt2.md)
 
-## 无监督学习(Unsupervise Learning)
+## 无监督学习(Unsupervised Learning)
 ### 对比学习(Contrastive learning)
 
 
