@@ -121,6 +121,11 @@
   - [中英翻译对照](nlp/bert.md)
 
 
+- RoBERTa
+  - [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/abs/1907.11692)
+  - [中文版](nlp/RoBERTa.pdf)  
+
+
 - T5
   - [Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer](https://arxiv.org/abs/1910.10683)
   - [中文版](nlp/T5.pdf)
